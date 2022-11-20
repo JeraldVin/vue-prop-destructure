@@ -76,8 +76,7 @@ export default {
             }
         })
 
-        let { count } = state
-        const counterDetails = state.counterDetails
+        let { count, counterDetails } = state
 
         setInterval(() => {
             count++
